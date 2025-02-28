@@ -24,7 +24,7 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Nome</th>
+                                    <th>Name</th>
                                     <th>Email</th>
                                     <th>Data Nascimento</th>
                                     <th>Ações</th>
