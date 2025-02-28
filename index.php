@@ -1,4 +1,4 @@
-<?php include('conexao.php'); ?>
+<!-- <?php include('conexao.php'); ?> -->
 <!doctype html>
 <html lang="en">
 
@@ -16,15 +16,17 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Lista de Usuários</h4>
+                        <h4>Lista de Usuários
                         <a href="usuario-create.php" class="btn btn-primary float-end">adicionar usuário</a>
+                        </h4>
+                       
                     </div>
                     <div class="card-body">
                         <table class="table table-bordered table-striped">
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Name</th>
+                                    <th>Nome</th>
                                     <th>Email</th>
                                     <th>Data Nascimento</th>
                                     <th>Ações</th>
