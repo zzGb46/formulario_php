@@ -20,7 +20,7 @@
                         </h4>
                     </div>
                     <div class="card-body">
-                        <form action="" method="POST">
+                        <form action="acoes.php" method="POST">
                             <div class="mb-3">
                                 <label>Nome</label>
                                 <input type="text" name="nome" class="form-control">
@@ -29,24 +29,22 @@
                                 <form action="" method="POST">
                                     <div class="mb-3">
                                         <label>Email</label>
-                                        <input type="text" name="nome" class="form-control">
+                                        <input type="text" name="email" class="form-control">
                                     </div>
                                     <div class="card-body">
                                         <form action="" method="POST">
                                             <div class="mb-3">
                                                 <label>Data De Nascimento</label>
-                                                <input type="text" name="nome" class="form-control">
+                                                <input type="date" name="data_nascimento" class="form-control">
                                             </div>
                                             <div class="card-body">
                                                 <form action="" method="POST">
                                                     <div class="mb-3">
                                                         <label>Senha</label>
-                                                        <input type="text" name="nome" class="form-control">
+                                                        <input type="password" name="senha" class="form-control">
                                                     </div>
-                                                    <div class="card-body">
-                                                        <form action="" method="POST">
                                                             <div class="mb-3">
-                                                                <button type="submit" name="create-usuario" class="btn btn-primary">Salvar</button>
+                                                                <button type="submit" name="create_usuario" class="btn btn-primary">Salvar</button>
                                                             </div>
                                                         </form>
                                                     </div>
