@@ -7,7 +7,7 @@ if(isset($_POST['create_usuario'])){
     $data = $_POST['data_nascimento'];
     $senha= password_hash($_POST['senha'], PASSWORD_DEFAULT);
 
-    $sql = "INSERT INTO teste(nome, email, data, senha)
+    $sql = "INSERT INTO teste(nome, email, data_atual, senha)
     values(
     '$nome',
     '$email',

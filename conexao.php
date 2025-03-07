@@ -17,8 +17,10 @@ $mysqli= new mysqli($host, $user, $pass, $db);
 // $obj= $mysqli->query('SELECT * FROM teste where id_teste= 1');
 // $resultado= $obj->fetch_assoc();
 // return $resultado;
+
 // }
 // var_export(foi());
+
 
 
 
